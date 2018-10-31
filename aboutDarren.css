@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Darren's website </title>
+		<style type="text/css">
+			body{background-color: black;}
+			H2{ color: lime; text-align: center; 
+			}
+			p{ color: lime;
+			}
+			}
+			#footer {
+				clear: left;
+				background: #fff;
+				padding: 3px;
+			}
+		
+			#footer p {
+				font-size: .75em;
+				margin: 0 0 0 12px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<H2><Hr> Darren's Website <Hr></H2>
+		<p> My name is Darren M. Fogleson and I am the creator of this webpage. </p>
+		<p> The purpose of this page is to be essentially a portfolio. </p>
+		<a href="Website.html"><p>&lt; Back to main page &gt;</p></a>
+	
+	<div id="footer">
+		<p>Content is &copy; Darren Fogleson.</p>
+		<p>This page is valid HTML5.</p>
+	</div>
+	
+	</body>
+</html>
