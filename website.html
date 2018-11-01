@@ -4,30 +4,33 @@
 		<title> Darren's website </title>
 		<style type="text/css">
 			body{background-color: black;}
-			H2{ color: lime; text-align: center; 
+			
+			.lime { 
+				color: lime;
 			}
-			p{ color: lime;
+			.centered {
+				text-align: center;
 			}
-			}
+			
 			#footer {
 				clear: left;
-				background: #fff;
+				background: black;
 				padding: 3px;
-			}
-		
-			#footer p {
 				font-size: .75em;
 				margin: 0 0 0 12px;
 			}
 			
+			
+			
 		</style>
 	</head>
 	<body>
-		<H2><Hr> Darren's Navigation Page <Hr></H2>
-		<p> &lt; The purpose of this page is to navigate what seems to be Darren Fogleson's website. &gt; </p>
+		<H2 class="centered lime"><Hr> Darren's Navigation Page <Hr></H2>
+		<p class="centered lime">The purpose of this page is to navigate what seems to be Darren Fogleson's website.</p>
+		<nav class="lime"><a href="website.html"><p> &lt; Homepage &gt;</p></a>
 		<a href="CSS.html"><p>&lt; Basic CSS template &gt;</p></a>
 		<a href="aboutDarren.html"><p>&lt; About Darren &gt;</p></a>
-	
+		</nav>
 	<div id="footer">
 		<p>Content is &copy; Darren Fogleson.</p>
 		<p>This page is valid HTML5.</p>
